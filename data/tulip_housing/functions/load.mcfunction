@@ -3,7 +3,7 @@
 
 # housing
 ## /trigger housing
-scoreboard objectives add housing dummy "Your house"
+scoreboard objectives add housing trigger "Your house"
 ## player timeout
 scoreboard objectives add temp_store.housing_player_timeout dummy
 scoreboard players set housing_player_timeout tulip.defs 30
